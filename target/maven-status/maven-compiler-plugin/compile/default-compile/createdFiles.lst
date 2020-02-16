@@ -1,9 +1,0 @@
-com\abnamro\report\util\CsvUtils.class
-com\abnamro\report\util\TransactionUtil.class
-com\abnamro\report\api\TradingReportController.class
-com\abnamro\report\streaming\KafkaStreamConfig.class
-com\abnamro\report\streaming\TradingRecordStreamProcessor.class
-com\abnamro\report\Application.class
-com\abnamro\report\streaming\AppConfigs.class
-com\abnamro\report\api\Transaction.class
-com\abnamro\report\api\TradingReportService.class
