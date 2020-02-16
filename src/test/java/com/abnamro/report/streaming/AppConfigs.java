@@ -10,7 +10,7 @@ public class AppConfigs {
     @Value("${application.id}")
     private String applicationId;
 
-    @Value("${kafka.host}")
+    @Value("localhost:1234")
     private String bootstrapServer;
 
     @Value("${source.topic}")

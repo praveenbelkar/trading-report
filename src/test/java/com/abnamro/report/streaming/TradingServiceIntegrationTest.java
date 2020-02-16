@@ -34,7 +34,7 @@ import static org.hamcrest.Matchers.*;
 @ActiveProfiles({"test"})
 @DirtiesContext
 @TestPropertySource(locations = "classpath:application-test.properties")
-public class TradingRecordProcessorTest {
+public class TradingServiceIntegrationTest {
 
     @Autowired
     private TradingRecordStreamProcessor tradingRecordStreamProcessor;

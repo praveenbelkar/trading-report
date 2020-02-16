@@ -43,4 +43,13 @@ public class Transaction {
         transaction.setTotalTransactionAmount(value);
         return transaction;
     }
+
+    @Override
+    public String toString() {
+        return "Transaction{" +
+                "clientInformation='" + clientInformation + '\'' +
+                ", productInformation='" + productInformation + '\'' +
+                ", totalTransactionAmount='" + totalTransactionAmount + '\'' +
+                '}';
+    }
 }
