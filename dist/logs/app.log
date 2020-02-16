@@ -1,0 +1,20 @@
+2020-02-16 19:14:09,937 INFO com.abnamro.report.Application [main] Starting Application v1.0-SNAPSHOT on DESKTOP-8PEA9IT with PID 13260 (C:\Main forlder\SandBox\trading-streaming-consumer\dist\trading-streaming-consumer-1.0-SNAPSHOT.jar started by Praveen in C:\Main forlder\SandBox\trading-streaming-consumer\dist)
+2020-02-16 19:14:09,940 DEBUG com.abnamro.report.Application [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-16 19:14:09,941 INFO com.abnamro.report.Application [main] No active profile set, falling back to default profiles: default
+2020-02-16 19:14:11,811 INFO com.abnamro.report.streaming.KafkaStreamConfig [main] stream creation begins.......
+2020-02-16 19:14:12,621 INFO com.abnamro.report.streaming.TradingRecordStreamProcessor [main] ***************State Changing to REBALANCING from CREATED
+2020-02-16 19:14:13,054 INFO com.abnamro.report.Application [main] Started Application in 3.625 seconds (JVM running for 4.392)
+2020-02-16 19:14:16,495 INFO com.abnamro.report.streaming.TradingRecordStreamProcessor [trading-report-app-36ea53a6-034e-4d4a-9a17-a594710d7403-StreamThread-1] ***************State Changing to RUNNING from REBALANCING
+2020-02-16 19:14:57,197 INFO com.abnamro.report.streaming.TradingRecordStreamProcessor [Thread-2] Stopping Stream
+2020-02-16 19:14:57,201 INFO com.abnamro.report.streaming.TradingRecordStreamProcessor [Thread-2] ***************State Changing to PENDING_SHUTDOWN from RUNNING
+2020-02-16 19:14:57,449 INFO com.abnamro.report.streaming.TradingRecordStreamProcessor [kafka-streams-close-thread] ***************State Changing to NOT_RUNNING from PENDING_SHUTDOWN
+2020-02-16 19:18:58,456 INFO com.abnamro.report.Application [main] Starting Application v1.0-SNAPSHOT on DESKTOP-8PEA9IT with PID 27276 (C:\Main forlder\SandBox\trading-streaming-consumer\dist\trading-streaming-consumer-1.0-SNAPSHOT.jar started by Praveen in C:\Main forlder\SandBox\trading-streaming-consumer\dist)
+2020-02-16 19:18:58,458 DEBUG com.abnamro.report.Application [main] Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-16 19:18:58,459 INFO com.abnamro.report.Application [main] No active profile set, falling back to default profiles: default
+2020-02-16 19:19:00,745 INFO com.abnamro.report.streaming.KafkaStreamConfig [main] stream creation begins.......
+2020-02-16 19:19:01,305 INFO com.abnamro.report.streaming.TradingRecordStreamProcessor [main] ***************State Changing to REBALANCING from CREATED
+2020-02-16 19:19:02,020 INFO com.abnamro.report.Application [main] Started Application in 4.071 seconds (JVM running for 4.848)
+2020-02-16 19:19:07,232 INFO com.abnamro.report.streaming.TradingRecordStreamProcessor [trading-report-app-62b4cc95-ab16-499e-b02b-c27800d093aa-StreamThread-1] ***************State Changing to RUNNING from REBALANCING
+2020-02-16 19:22:19,976 INFO com.abnamro.report.streaming.TradingRecordStreamProcessor [Thread-2] Stopping Stream
+2020-02-16 19:22:19,977 INFO com.abnamro.report.streaming.TradingRecordStreamProcessor [Thread-2] ***************State Changing to PENDING_SHUTDOWN from RUNNING
+2020-02-16 19:22:20,204 INFO com.abnamro.report.streaming.TradingRecordStreamProcessor [kafka-streams-close-thread] ***************State Changing to NOT_RUNNING from PENDING_SHUTDOWN
