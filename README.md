@@ -1,7 +1,8 @@
 # trading-report
 
+These steps have to be run in the precise order mentioned below. It has strong dependency on each other.
 1. Start the zookeeper
-2. Start kafka
+2. Start kafka server
 3. Create the following topics 
 trading-records
 trading-report
@@ -14,11 +15,11 @@ For windows:
 bin/kafka-topics.bat --create --bootstrap-server <kafka_host:port> --replication-factor 1 --partitions 1 --topic trading-records
 bin/kafka-topics.bat --create --bootstrap-server <kafka_host:port> --replication-factor 1 --partitions 1 --topic trading-report
 
-4. Download the dist/
+4. Download ALL the files in the  dist/  folder in any of your work directory.
 5. Send the records from file Input.txt 
 kafka-console-producer.sh --broker-list <kafka_host:port> --topic trading-records < Input.txt
 
-5. Run 
+5. In order to start the kafka-consumer application run below commands:
 For unix:
 sh run.sh <kafka_host:port>
 e.g. 
