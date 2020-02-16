@@ -16,7 +16,7 @@ import java.util.Properties;
 
 @Component
 public class TradingRecordStreamProcessor {
-    //private static final Logger logger = LogManager.getLogger();
+    
     private static final Logger logger = LoggerFactory.getLogger(TradingRecordStreamProcessor.class);
 
     @Autowired
